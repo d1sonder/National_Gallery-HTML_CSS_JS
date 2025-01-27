@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="./img/title.png">
+        <title>Галерея  Ван Гога</title>
+        <link rel="stylesheet" href="./css/css.css">
+        <script src="./js/js.js"></script>
+    </head>
+    <body>
+        <div class="head">
+                <a href="index.html"><img src="./img/logo.png" class="logo-img"></a>
+                <span class="head-p"> 
+                    <a href="kypi.html" class="kypit">Купить билет</a> 
+                    <a href="reg.html" class="kypit">Стать другом</a> 
+                    <a href="error.html" class="kypit">Интернет-магазин</a>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn"><img class="img-head" width="24" height="24" src="https://img.icons8.com/material-sharp/24/bell.png" alt="Кнопка «button»"></button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="bog.html">Алексей Боголюбов. 200 лет со дня рождения.</a>
+                          <a href="bog.html">Алексей Боголюбов. 200 лет со дня рождения.</a>
+                          <a href="bog.html">Алексей Боголюбов. 200 лет со дня рождения.</a>
+                        </div>
+                      </div>
+                    <a href="#"><img class="img-head" width="24" height="24" src="https://img.icons8.com/external-becris-lineal-becris/64/external-loupe-mintab-for-ios-becris-lineal-becris.png" alt="loupe"/></a>
+                    <select id="language-select" class="lang">
+                        <option value="ru">RU</option>
+                        <option value="en">EN</option>
+                      </select>
+                </span>
+        </div>
+        <hr class="hr1">
+        <div class="reg">
+<h1 class="h1-reg">Купить билет</h1>
+
+<form name="Form" onsubmit="return form()" class="form">
+        <label for="username" class="aye1">Имя</label><br>
+        <input type="text" name="5" required id="userspassword"><br><br>
+
+        <label for="email" class="aye2">E-mail</label><br>
+        <input  class="input"type="email" name="4" required id="userspassword"><br><br>
+
+        <label for="email" class="aye2">Дата</label><br>
+        <input  class="input" type="date" name="4" required id="userspassword"><br><br>
+
+        <label for="quantity" class="aye7">Количество билетов:</label><br>
+        <input type="number" id="userspassword" name="quantity" min="1"><br><br>
+
+        <label for="payment-method" class="aye8">Выберите экспозицию:</label><br>
+        <select id="payment-method" name="payment-method" class="kypitb">
+          <option value="credit-card">Алексей Боголюбов</option>
+          <option value="electronic-payment">Ван Гог</option>
+          <option value="cash">Святослав Назарко</option>
+        </select><br><br>
+
+              <label for="payment-method" class="aye6">Способ оплаты:</label><br>
+              <select id="payment-method" name="payment-method" class="kypitb">
+                <option value="credit-card">Кредитная карта</option>
+                <option value="electronic-payment">Электронный платеж</option>
+                <option value="cash">Наличными</option>
+              </select><br><br><br>
+
+            <input type="submit" value="Оформить заказ" class="but-reg"><br><br><br>
+            </form>
+          </div>
+
+        
+        <footer>
+            <div class="footer-inner">
+              <div class="footer-section">
+                <h3 class="footer-heading">О сайте</h3>
+                <p>Национальная галерея - онлайн платформа, предоставляющая доступ к множеству произведений искусства, собранных из разных стран и эпох.
+                     У нас вы можете насладиться картинами знаменитых художников, изучить их историю и значимость.</p>
+              </div>
+              <div class="footer-section">
+                <h3 class="footer-heading">Наши соц.сети</h3>
+                <a href="https://vk.com/login?u=2&to=L2luZGV4LnBocA--"><img width="48" height="48" src="https://img.icons8.com/ios/50/vkontakte.png" alt="ВКонтакте" class="img-foot"></a>
+                <a href="https://www.instagram.com/"><img width="48" height="48" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="Instagram" class="img-foot"></a>
+                <a href="https://web.telegram.org/a/"><img class="img-foot1" width="42" height="42" src="https://img.icons8.com/external-tal-revivo-light-tal-revivo/48/external-telegram-is-a-cloud-based-instant-messaging-and-voice-over-ip-service-logo-light-tal-revivo.png" alt="Telegram"></a>
+                <a href="https://www.facebook.com/?locale=ru_RU"><img class="img-foot" width="50" height="50" src="https://img.icons8.com/ios/50/facebook--v1.png" alt="Facebook"></a>
+            </div>
+              <div class="footer-section">
+                <h3 class="footer-heading">Контакты</h3>
+                <p>Телефон: 123-456-7890</p>
+                <p>Email: gallery@example.com</p>
+              </div>
+              <div class="footer-section">
+                <h3 class="footer-heading">Полезные ссылки</h3>
+                <ul>
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="gallery.html">Галерея</a></li>
+                  <li><a href="onas.html">О нас</a></li>
+                  <li><a href="otz.html">Отзыв</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr class="hr2">
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div style="opacity: 0.5; color: gray;">
+                    <p onmouseover="this.style.color='white'" onmouseout="this.style.color='gray'">
+                        Условия использования материалов сайта | Политика конфиденциальности | 2023 © Национальная галерея | Разработка сайта - Артём
+                    </p>
+                </div>
+          </footer>
+    </body>
+</html>
